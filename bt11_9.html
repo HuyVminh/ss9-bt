@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let toan = +prompt("Hãy nhập điểm môn toán");
+        let ly = +prompt("Hãy nhập điểm môn lý");
+        let hoa = +prompt("Hãy nhập điểm môn hóa");
+        let van = +prompt("Hãy nhập điểm môn văn");
+        let su = +prompt("Hãy nhập điểm môn sử");
+        let dia = +prompt("Hãy nhập điểm môn địa");
+        let tb = (toan + ly + hoa + van + su + dia) / 6;
+        if (tb >= 8.0) {
+            document.write("xếp loại GIỎI");
+        }
+        else if (tb >= 6.5) {
+            document.write("xếp loại KHÁ");
+        }
+        else if (tb >= 5.0) {
+            document.write("xếp loại TRUNG BÌNH");
+        }
+        else{
+            document.write("xếp loại YẾU");
+        }
+    </script>
+</body>
+
+</html>

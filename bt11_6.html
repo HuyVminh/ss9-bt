@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .xanh {
+            background-color: blue;
+            height: 50px;
+        }
+        .do {
+            background-color: red;
+            height: 50px;
+        }
+        .vang {
+            background-color: yellow;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        let color = prompt("Hãy nhập 1 trong 3 màu xanh, đỏ, vàng");
+        if (color === "xanh") {
+            document.write(`<div class="xanh"></div>`);
+        }
+        else if(color=== "đỏ") {
+            document.write(`<div class="do"></div>`);
+        }
+        else if (color === "vàng") {
+            document.write(`<div class="vang"></div>`);
+        }
+        else {
+            document.write("Không hợp lệ!");
+        }
+    </script>
+
+</body>
+
+</html>
